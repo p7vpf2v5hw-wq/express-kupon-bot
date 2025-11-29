@@ -1,4 +1,3 @@
-# express-kupon-bot
 ```python
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
@@ -17,8 +16,7 @@ def generate_kupon():
     o'yinlar = [
         "Real Madrid vs Elche — Over 2.5",
         "Arsenal vs Chelsea — 1X",
-        "Inter vs Napoli — BTTS",
-"Bayern vs Dortmund — Over 1.5",
+        "Inter vs Napoli — BTTS","Bayern vs Dortmund — Over 1.5",
         "PSG vs Lyon — 1",
         "Milan vs Roma — X2",
         "Juventus vs Lazio — Under 3.5"
